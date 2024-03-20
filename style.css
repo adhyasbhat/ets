@@ -1,0 +1,85 @@
+body{
+    background: url('./puzzel.png');
+}
+.first,.third,.fourth,.fifth,.sixth,.footer{
+    background: white;
+    padding: 2rem;
+}
+.second{
+    height: 30rem;
+}
+.navBar{
+    height: 7rem;
+}
+.heading h1{
+    font-size: 3.5rem;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+}
+.sideBorder{
+border-right: 2px solid black;
+border-left: 2px solid black;
+}
+.image{
+    width: 100%;
+    height: 70%;
+    border-radius: 0.5rem;
+
+}
+.storyImg{
+    width:33rem;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+
+}
+.firstBtn{
+    border: 2px solid #6000cd;
+    padding: 0.5rem 1rem;
+    color: #6000cd;
+    background: white;
+    border-radius: 0.5em;
+    height: 3rem;
+}
+.secBtn{
+    background: #6000cd;
+    color: white;
+    width: 9rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5em;
+    border: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}   
+ul li a:hover{
+    color: #6000cd;
+}
+ul li a.active{
+    color: #6000cd;
+}
+.text{
+    color: gray;
+}
+.serviceHeading{
+    height: 7rem;
+}
+.phoneImg{
+   width: 30rem;
+   height: 30rem;
+    border-radius: 0.5rem;
+}
+.quote{
+    width: 2rem;
+    height: 2rem;
+}
+.user{
+    width: 3rem;
+    height: 3rem;
+   padding: 0.5rem;
+}
